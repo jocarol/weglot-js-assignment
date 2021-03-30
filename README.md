@@ -189,7 +189,7 @@ let state = {
 ctx.body = state;
 ```
 
-4. The regex is enough to checki wether provider is empty or not. If it did not capture anything, it will return nothing anyway.
+4. The regex is enough to check wether provider is empty or not. If it did not capture anything, it will return nothing anyway.
 
 ```js
 function getQueryProvider() {
@@ -209,7 +209,7 @@ function getQueryProvider() {
 }
 ```
 
-5. The goal is to return all paragraph elements. querySelectorAll returns a node list that you can access to just like an array.
+5. The goal is to return all paragraph elements. ```querySelectorAll``` returns a node list that you can access just like an array.
    If there is no intent to transform that list (it is the case here, because of the const), you may want to return the nodes directly.
 
 ```js
