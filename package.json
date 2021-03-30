@@ -1,0 +1,17 @@
+{
+  "name": "weglot-js-assessment",
+  "version": "1.0.0",
+  "main": "app.js",
+  "private": false,
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "node ./node_modules/mocha/bin/mocha"
+  },
+  "description": "NodeJS assessment for WeGlot",
+  "author": "Joris Carol",
+  "dependencies": {
+    "mocha": "^8.3.2"
+  }
+}
