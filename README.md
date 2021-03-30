@@ -1,7 +1,8 @@
 # How to evaluate this work?
 
-Clone this repo, then in a terminal do ```yarn``` to install its dependecies.
-Then, you are clear to run the tests with ```yarn run test```.
+* Clone this repo, then in a terminal do ```yarn``` to install its dependecies.
+* execute ```nvm use```
+* Then, you are clear to run the tests with ```yarn run test```.
 
 The second part of this assignment (code review) is at the bottom, in this README.md file.
 
