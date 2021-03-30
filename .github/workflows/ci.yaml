@@ -1,0 +1,19 @@
+name: CI
+
+on:
+  push:
+    branches: main
+  pull_request:
+    branches: main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Node jobs
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.18.4
+      - run: yarn install --frozen-lockfile
+      - run: yarn run test
