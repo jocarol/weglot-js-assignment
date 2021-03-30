@@ -1,3 +1,14 @@
+# How to evaluate this work?
+
+Clone this repo, then in a terminal do ```yarn``` to install its dependecy.
+Then, you are clear to run the tests with ```yarn run test```.
+
+The second part of this assignment (code review) is at the bottom, in this README.md file.
+
+That's all!
+
+-------------------------------------------------------------------------------
+
 The first rule is, **do not** fork this repo, clone it or use it as template.
 
 The second rule is, **do not** fork this repo, clone it or use it as template.
